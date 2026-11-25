@@ -12,9 +12,9 @@ A research skill for interpreting data, tables, figures and comparisons, and dra
 
 ## 安装 / Installation
 
-这是私有备份，需要具有仓库访问权限的 GitHub 账号。将两个仓库分别安装到下列稳定技能目录；依赖仓库名中的 `-private` 不应带入本地技能目录名。
+这是公开发布版本，无需申请仓库权限。将两个仓库分别安装到下列稳定技能目录；依赖仓库名中历史保留的 `-private` 不应带入本地技能目录名。
 
-This is a private backup. Use an account with access to both repositories. Keep the local companion directory named `be-human-and-less-defense`, without the repository's `-private` suffix.
+Both repositories are publicly accessible. Keep the local companion directory named `be-human-and-less-defense`, without the repository's historical `-private` suffix.
 
 ```bash
 skill_home="${CODEX_HOME:-$HOME/.codex}/skills"
@@ -49,6 +49,6 @@ Supply the figures, relevant data or statistical outputs, research question and 
 - [references/](references/): 比较方法、指标解读、政策结果表达、正文与补充材料分工 / supporting guidance.
 - [agents/openai.yaml](agents/openai.yaml): 界面元数据与自动调用策略 / UI metadata and invocation policy.
 
-本备份保留源技能的写作规则与学术案例；未新增许可声明。
+本发布版本保留源技能的写作规则与学术案例；未新增许可声明。
 
-This backup preserves the source skill's writing rules and academic examples. No new license is assigned.
+This release preserves the source skill's writing rules and academic examples. No new license is assigned.
