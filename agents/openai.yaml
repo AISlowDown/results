@@ -1,0 +1,6 @@
+interface:
+  display_name: "Result Explainer"
+  short_description: "围绕分析目的解读实验数据与图表，串联关键比较并形成小结，从初稿减少套话与防御表达"
+  default_prompt: "使用 $results（Result Explainer）分析这些实验数据或图表，按分析目的、关键结果与比较、简短结论组织，多图表之间建立逻辑联系，从初稿应用 be-human-and-less-defense，并检查证据与推断。"
+policy:
+  allow_implicit_invocation: true

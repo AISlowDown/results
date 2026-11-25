@@ -1,0 +1,23 @@
+# macOS
+.DS_Store
+._*
+__MACOSX/
+.Spotlight-V100/
+.Trashes/
+.fseventsd/
+
+# Local runtimes and caches
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+node_modules/
+.cache/
+.pytest_cache/
+
+# Local temporary files and secrets
+*.log
+*.tmp
+.env
+.env.*
+!.env.example
