@@ -15,6 +15,13 @@ description: >-
 
 # Result Explainer
 
+## User manuscript style
+
+- For this user's newly authored or revised academic prose, do not use first-person plural `We/we`, `our`, `ours` or `ourselves`. Name the study, model, analysis or research object as the subject, or use appropriate passive voice. Vary the subject rather than repeatedly opening with `This study`.
+- In paper and thesis titles, headings, abstracts, body text, captions and supplementary prose, use statements or descriptive noun phrases instead of interrogative or rhetorical questions. Express a research question as a specific objective, unresolved relationship or evidence gap without presuming its answer. Descriptive titles need not assert a result.
+- Keep editing labels such as `疑问句转陈述句` out of the finished manuscript. Deliver the revised wording directly; put any requested explanation outside the manuscript.
+- Before delivery, check the authored prose for whole-word first-person forms and question-form sentences or headings, including `?` and `？`. Preserve verbatim quotations, reviewer comments, verified reference or official titles, code, mathematical notation and formal names such as `Weibull`. Internal planning questions and necessary questions to the user remain available. Apply these conventions over conflicting generic voice advice in imported references or templates.
+
 User-facing names: Result Explainer / 看图说话大师. Stable invocation identifier: `results` (`$results`).
 
 ## Scope and Delivery
@@ -160,8 +167,8 @@ paragraphs or printing these planning labels in the answer:
 
 1. **Analytical purpose:** at the start of a coherent analysis or subsection requested as manuscript
    Results, make the analytical purpose explicit. Name the comparison and the question
-   it answers, for example `To assess whether longer recordings improved classification accuracy,
-   we compared the three tested durations.` Do not substitute a bare first finding (`Accuracy
+   it answers, for example `The analysis compared classification accuracy across the three
+   tested recording durations to assess the contribution of recording length.` Do not substitute a bare first finding (`Accuracy
    increased...`) for the purpose sentence. Keep this opening concise and specific to the
    experiment actually performed; avoid rhetorical questions, generic previews, and repeated Methods.
    For a direct numerical answer or a brief table explanation outside manuscript drafting, an
@@ -169,7 +176,7 @@ paragraphs or printing these planning labels in the answer:
    In manuscript body prose, state the section's analytical aim directly rather than identifying
    its ordinal experiment: avoid openings such as `The first experiment compared...`, `The second
    experiment assessed...`, or `第三个实验旨在...`. Use natural, varied constructions such as
-   `This section evaluates...`, `To assess..., we compared...`, or `The scenario analysis examines...`.
+   `This section evaluates...`, `The comparison assesses...`, or `The scenario analysis examines...`.
    Do not repeat `This section aims to...` mechanically across sections. Retain numbered experiment
    labels in Methods headings or cross-references when they help navigation.
 2. **Findings:** lead evidence paragraphs with a concrete, supported finding or consequential
